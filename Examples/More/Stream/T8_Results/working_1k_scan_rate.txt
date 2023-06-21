@@ -1,0 +1,117 @@
+$ python stream_basic.py 
+Opened a LabJack with Device type: 8, Connection type: 1,
+Serial number: 480010115, IP address: 0.0.0.0, Port: 0,
+Max bytes per MB: 512
+
+Stream started with a scan rate of 1017 Hz.
+
+Performing 25 stream reads.
+
+eStreamRead 1
+  1st scan out of 500: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 16
+
+eStreamRead 2
+  1st scan out of 500: AIN0 = 2.02811,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 12
+
+eStreamRead 3
+  1st scan out of 500: AIN0 = 2.02807,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 8
+
+eStreamRead 4
+  1st scan out of 500: AIN0 = 2.02825,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 4
+
+eStreamRead 5
+  1st scan out of 500: AIN0 = 2.02801,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 0
+
+eStreamRead 6
+  1st scan out of 500: AIN0 = 2.02849,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 38
+
+eStreamRead 7
+  1st scan out of 500: AIN0 = 2.02851,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 13
+
+eStreamRead 8
+  1st scan out of 500: AIN0 = 2.02823,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 30
+
+eStreamRead 9
+  1st scan out of 500: AIN0 = 2.02848,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 5
+
+eStreamRead 10
+  1st scan out of 500: AIN0 = 2.02812,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 1
+
+eStreamRead 11
+  1st scan out of 500: AIN0 = 2.02832,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 38
+
+eStreamRead 12
+  1st scan out of 500: AIN0 = 2.02808,
+  Scans Skipped = 2, Scan Backlogs: Device = 0, LJM = 14
+
+eStreamRead 13
+  1st scan out of 500: AIN0 = 2.02829,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 10
+
+eStreamRead 14
+  1st scan out of 500: AIN0 = 2.02825,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 26
+
+eStreamRead 15
+  1st scan out of 500: AIN0 = 2.02819,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 22
+
+eStreamRead 16
+  1st scan out of 500: AIN0 = 2.02833,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 18
+
+eStreamRead 17
+  1st scan out of 500: AIN0 = 2.02824,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 14
+
+eStreamRead 18
+  1st scan out of 500: AIN0 = 2.02851,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 10
+
+eStreamRead 19
+  1st scan out of 500: AIN0 = 2.02828,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 6
+
+eStreamRead 20
+  1st scan out of 500: AIN0 = 2.02850,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 2
+
+eStreamRead 21
+  1st scan out of 500: AIN0 = 2.02805,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 19
+
+eStreamRead 22
+  1st scan out of 500: AIN0 = 2.02816,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 36
+
+eStreamRead 23
+  1st scan out of 500: AIN0 = 2.02838,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 11
+
+eStreamRead 24
+  1st scan out of 500: AIN0 = 2.02842,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 7
+
+eStreamRead 25
+  1st scan out of 500: AIN0 = 2.02848,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 3
+
+Total scans = 12500
+Time taken = 12.355528 seconds
+LJM Scan Rate = 1017.252625 scans/second
+Timed Scan Rate = 1011.692904 scans/second
+Timed Sample Rate = 1011.692904 samples/second
+Skipped scans = 2
+
+Stop Stream

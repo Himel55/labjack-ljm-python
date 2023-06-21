@@ -1,0 +1,118 @@
+$ python stream_basic.py 
+Opened a LabJack with Device type: 8, Connection type: 1,
+Serial number: 480010115, IP address: 0.0.0.0, Port: 0,
+Max bytes per MB: 512
+
+Stream started with a scan rate of 38580 Hz.
+
+Performing 25 stream reads.
+
+eStreamRead 1
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 1826, Scan Backlogs: Device = 32, LJM = 347
+
+eStreamRead 2
+  1st scan out of 19000: AIN0 = 1.94763,
+  Scans Skipped = 1, Scan Backlogs: Device = 32, LJM = 608
+
+eStreamRead 3
+  1st scan out of 19000: AIN0 = 2.18496,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 849
+
+eStreamRead 4
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 325
+
+eStreamRead 5
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 111
+
+eStreamRead 6
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 662
+
+eStreamRead 7
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 902
+
+eStreamRead 8
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 0, LJM = 234
+
+eStreamRead 9
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 495
+
+eStreamRead 10
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 798
+
+eStreamRead 11
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 315
+
+eStreamRead 12
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 638
+
+eStreamRead 13
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 362
+
+eStreamRead 14
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 479
+
+eStreamRead 15
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 451
+
+eStreamRead 16
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 464
+
+eStreamRead 17
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 726
+
+eStreamRead 18
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 429
+
+eStreamRead 19
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 463
+
+eStreamRead 20
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 1117
+
+eStreamRead 21
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 469
+
+eStreamRead 22
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 668
+
+eStreamRead 23
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 165
+
+eStreamRead 24
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 16, LJM = 778
+
+eStreamRead 25
+  1st scan out of 19000: AIN0 = -0.00425,
+  Scans Skipped = 0, Scan Backlogs: Device = 32, LJM = 853
+
+Total scans = 475000
+Time taken = 12.359759 seconds
+LJM Scan Rate = 38580.246094 scans/second
+Timed Scan Rate = 38431.170058 scans/second
+Timed Sample Rate = 38431.170058 samples/second
+Skipped scans = 1827
+
+Stop Stream
+LJM library error code 1239 LJME_RECONNECT_FAILED

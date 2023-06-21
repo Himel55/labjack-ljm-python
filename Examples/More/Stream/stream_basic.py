@@ -42,9 +42,10 @@ from labjack import ljm
 MAX_REQUESTS = 25  # The number of eStreamRead calls that will be performed.
 
 # Open first found LabJack
-handle = ljm.openS("ANY", "ANY", "ANY")  # Any device, Any connection, Any identifier
+# handle = ljm.openS("ANY", "ANY", "ANY")  # Any device, Any connection, Any identifier
 #handle = ljm.openS("T7", "ANY", "ANY")  # T7 device, Any connection, Any identifier
 #handle = ljm.openS("T4", "ANY", "ANY")  # T4 device, Any connection, Any identifier
+handle = ljm.openS("T8", "ANY", "ANY")  # T4 device, Any connection, Any identifier
 #handle = ljm.open(ljm.constants.dtANY, ljm.constants.ctANY, "ANY")  # Any device, Any connection, Any identifier
 
 info = ljm.getHandleInfo(handle)
@@ -55,10 +56,10 @@ print("Opened a LabJack with Device type: %i, Connection type: %i,\n"
 deviceType = info[0]
 
 # Stream Configuration
-aScanListNames = ["AIN0", "AIN1"]  # Scan list names to stream
+aScanListNames = ["AIN0"]  # Scan list names to stream
 numAddresses = len(aScanListNames)
 aScanList = ljm.namesToAddresses(numAddresses, aScanListNames)[0]
-scanRate = 1000
+scanRate = 38000
 scansPerRead = int(scanRate / 2)
 
 try:
@@ -75,6 +76,8 @@ try:
                   "STREAM_RESOLUTION_INDEX"]
         aValues = [10.0, 10.0, 0, 0]
     else:
+        # TODO: This will also be configured on T8 (Which I believe is okay?)
+
         # LabJack T7 and other devices configuration
 
         # Ensure triggered stream is disabled.
